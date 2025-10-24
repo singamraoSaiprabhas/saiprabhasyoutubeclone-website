@@ -1,0 +1,160 @@
+.search-box{
+        font-size:20px;
+        margin-left: 12px;
+        display: block;
+      ;
+      }
+.header{
+  height:55px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left:0;
+  right: 0;
+  background-color: white;
+  border-bottom-style:solid;
+
+  border-bottom-width:1px;
+  border-top-width:1px;
+  border-color: rgb(192,192,192);
+  border-right-width: 1px;
+  border-left-width: 1px;
+  z-index: 100;
+}
+.left-section{
+  display: flex;
+  align-items: center;
+}
+.hamburger-menu{
+  height: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.youtube-logo{
+  height:20px;
+}
+.middle-section{
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+}
+.serach-bar{
+  flex: 1;
+  height: 36px;
+  padding-left: 10px;
+  font-size: 16px;
+  border: 1px solid rgb(192,192,192);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: inset 1px 2px 5px rgba(0,0,0,0.1);
+  width: 0;
+
+}
+.serach-bar:focus{
+  outline: rgb(24, 184, 238) auto 2px;
+}
+.search-bar::placeholder{
+  font-family: Roboto,Arial;
+  font-size: 16px;
+}
+.search-button{
+  height: 40px;
+  width: 60px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-width: 1px;
+  background-color: rgb(240,240,240);
+  border-width: 1px;
+  border-color: rgb(192,192,192);
+  margin-left: -1px;
+  margin-right: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-button .tooltip,.voice-search-icon-button .tooltip{
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding-left: 4px;
+  padding-bottom: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  border-radius: 4px;
+  font-size: 12px;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.search-button:hover .tooltip,.voice-search-icon-button:hover .tooltip{
+  opacity: 1;
+}
+.search{
+  height:30px;
+}
+.voice-search-icon-button{
+  background-color: rgb(240,240,240);
+  height: 40px;
+  width: 60px;
+  border-radius: 20px;
+  border:none;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  
+ 
+}
+.voice-search-icon{
+  height: 20px;
+}
+.right-section{
+  width: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+.upload{
+  height: 25px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.notifications{
+  height: 25px;
+}
+.notifications_containar{
+  position: relative;
+
+}
+.notifications_count{
+  font-family: roboto,arial;
+  font-size: 11px;
+  position: absolute;
+  top: -2px;
+  right: -5px;
+  background-color: rgb(150, 12, 12);
+  color: white;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-bottom: 4px;
+  padding-right: 5px;
+  padding-top: 4px;
+}
+.channel-profile-pics{
+  height: 30px;
+  border-radius: 20px;
+}
+
